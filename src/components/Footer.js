@@ -6,9 +6,9 @@ function Footer() {
     <footer className="footer">
       <p>Made with ❤️ for You da Thambiii &#128540;</p>
       <div className="social-icons">
-        <a className="social-icon">📘</a>
-        <a className="social-icon">📸</a>
-        <a className="social-icon">🐦</a>
+        <a href="https://www.instagram.com/" className="social-icon">📘</a>
+        <a href="https://www.instagram.com/" className="social-icon">📸</a>
+        <a href="https://www.instagram.com/" className="social-icon">🐦</a>
       </div>
     </footer>
   );
