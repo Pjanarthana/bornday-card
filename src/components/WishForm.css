@@ -1,0 +1,80 @@
+.wish-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .wish-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .wish-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .wish-form input,
+  .wish-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .wish-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .wish-form button {
+    background-color: #4ecdc4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wish-form button:hover {
+    background-color: #45b7a0;
+  }
+  .wish-form {
+    padding: 20px;
+  }
+  
+  .wish-form h2 {
+    font-size: 1.8rem;
+  }
+  
+  .wish-form input,
+  .wish-form textarea,
+  .wish-form button {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .wish-form {
+      padding: 15px;
+    }
+  
+    .wish-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .wish-form input,
+    .wish-form textarea,
+    .wish-form button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .wish-form textarea {
+      min-height: 80px;
+    }
+  }

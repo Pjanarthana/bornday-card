@@ -1,0 +1,87 @@
+.birthday-message {
+    background-color: #4ecdc4;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .birthday-message h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .birthday-message p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .cake {
+    width: 100px;
+    height: 80px;
+    background-color: #f9c74f;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    position: relative;
+  }
+  
+  .candle {
+    width: 8px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+  }
+  
+  .candle::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #ff9f1c;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: flicker 0.5s infinite alternate;
+  }
+  
+  @keyframes flicker {
+    0% { opacity: 0.5; transform: translateX(-50%) scale(0.8); }
+    100% { opacity: 1; transform: translateX(-50%) scale(1.2); }
+  }
+  .birthday-message {
+    padding: 20px;
+  }
+  
+  .birthday-message h2 {
+    font-size: 2rem;
+  }
+  
+  .birthday-message p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .birthday-message h2 {
+      font-size: 1.8rem;
+    }
+  
+    .cake {
+      width: 80px;
+      height: 64px;
+    }
+  
+    .candle {
+      height: 24px;
+      top: -20px;
+    }
+  }
+  
